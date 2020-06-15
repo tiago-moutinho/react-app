@@ -1,8 +1,14 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { Fragment } from "react";
+
+import { GlobalStyle } from "./globalStyles";
 
 function App() {
-  return <main>My example</main>;
+  return (
+    <Fragment>
+      <GlobalStyle />
+      <h1>My example</h1>
+    </Fragment>
+  );
 }
 
 export default App;
